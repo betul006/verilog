@@ -14,10 +14,10 @@
 
 Operation modes:
 
-* Hold (00): Keeps the current value unchanged
-* Right Shift (01): Shifts all bits to the right and inserts a new bit from serial input
-* Left Shift (10): Shifts all bits to the left and inserts a new bit from serial input
-* Parallel Load (11): Loads a 4 bit value into the register simultaneously
+**Hold (00):** Keeps the current value unchanged
+**Right Shift (01):** Shifts all bits to the right and inserts a new bit from serial input
+**Left Shift (10):** Shifts all bits to the left and inserts a new bit from serial input
+**Parallel Load (11):** Loads a 4 bit value into the register simultaneously
 
 The block diagram of the system is shown below.
 
