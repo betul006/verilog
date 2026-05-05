@@ -15,8 +15,11 @@
 Operation modes:
 
 **Hold (00):** Keeps the current value unchanged
+
 **Right Shift (01):** Shifts all bits to the right and inserts a new bit from serial input
+
 **Left Shift (10):** Shifts all bits to the left and inserts a new bit from serial input
+
 **Parallel Load (11):** Loads a 4 bit value into the register simultaneously
 
 The block diagram of the system is shown below.
@@ -39,9 +42,13 @@ The block diagram of the system is shown below.
  The simulation begins with the reset signal activated to initialize the register. Then, different operations are tested sequentially:
 
 **1. Parallel Load:** A 4 bit value is loaded into the register
+
 **2. Right Shift:** Bits are shifted to the right with serial input
+
 **3. Left Shift:** Bits are shifted to the left with serial input
+
 **4. Hold:** The register value is maintained
+
 
  The simulation results were observed using GTKWave. The waveform clearly shows that the output changes correctly according to the applied inputs and control signals.
 
